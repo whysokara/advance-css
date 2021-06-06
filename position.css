@@ -1,0 +1,97 @@
+.kar {
+  font-size: 0.5rem;
+  font-weight: lighter;
+  position: relative;
+  bottom: 1em;
+}
+
+.notidiv{
+    height: 200px;
+    position: relative;
+}
+
+.snackbar{
+    border: 1px solid black;
+    padding: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+.modal{
+    position: fixed;
+    bottom: 150px;
+    left: 40%;
+    border: 1px solid black;
+    max-width: 200px;
+    position: fixed;
+    padding-bottom: 1rem;
+}
+
+.float-new{
+    background-color: rgb(240, 122, 122);
+    padding: 0.045em;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 0;
+}
+.float-new::after{
+    content: "";
+    position: absolute;
+    border-width: 8px 8px 9px 8px;
+    top: 0;
+    border-style: solid;
+    border-color: rgb(240, 122, 122,0.8) transparent rgb(240, 122, 122,0.8) rgb(240, 122, 122);
+}
+.price{
+    font-weight: bold;
+}
+
+.mrp{
+    text-decoration: line-through;
+}
+
+.badge{
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0.2em;
+    background-color: rgb(17, 231, 17);
+}
+
+.remove{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 15%;
+    outline: none;
+    background: none;
+}
+
+.remove > img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left:2%;
+    color: blanchedalmond;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 2%;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: black;
+    box-shadow: 2px 2px 5px rgb(109, 98, 98), -1px -1px 2px rgb(83, 69, 69);
+}
+
+.back-btn:active {
+    transform: translate(1px, 1px);
+}
+
